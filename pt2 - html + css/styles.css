@@ -1,0 +1,106 @@
+/* External CSS - Resuable amongst other sites */
+
+body {
+    background-color: slategray; 
+}
+
+h1 {
+    color: black;
+}
+
+h2 {
+    font-family: "Amatic SC", serif;
+    font-size: 48px;
+    
+    color: black;
+    
+    border-style: solid;
+    border-width: 3px;
+    border-color: hsl(83, 100%, 64%);
+    border-radius: 15px;
+
+    text-shadow: 1px 1px 1px hsl(83, 100%, 64%);
+
+    margin: 300 px;
+}
+
+p {
+    color: black;
+}
+
+#p1 {
+    color: red;
+}
+
+#p2 {
+    color: rgb(236, 10, 218);
+}
+
+#p3 {
+    color: #59ff5f;
+}
+
+#p4 {
+    color: hsl(283, 100%, 64%);
+}
+
+.even {
+    font-family: "Indie Flower", serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.odd {
+    font-family: "Amatic SC", serif;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.multi-border {
+    border-bottom: 4px dotted rgb(255, 0,0);
+    border-top: 2px solid rgb(0, 255, 255);
+    border-right: 1px solid rgb(255, 0, 230);
+    border-left: 5px dotted rgb(255, 0, 230);
+
+    border-radius: 10px;
+}
+
+.shadow-text {
+    text-shadow: 3px 3px 3px red, -3px -3px 10px blue;
+}
+
+.shadow-box {
+    width: 400px;
+    height: 50px;
+    background-color: rgb(255, 230, 230);
+    box-shadow: 3px 3px 5px black;
+}
+
+.margin-box1 {
+    border: 5px solid;
+    font-size: 5em;
+    width: 300px;
+    height: 300px;
+
+    margin-top: 200px;
+    margin-bottom: 55px;
+    margin-left: 300px;
+
+}
+
+.margin-box2 {
+    border: 5px solid;
+    font-size: 5em;
+    width: 300px;
+    height: 300px;
+
+    margin-top: 40px;
+    margin-bottom: 100px;
+    margin-left: auto;
+
+}
+
+
+

@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Comprehensive Practice Website</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Indie+Flower&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -12,9 +15,7 @@
     <h1>CSS Practice and Experiments</h1>
     <nav>
         <ul>
-            <li><a href="#introduction">Introduction to CSS</a></li>
-            <li><a href="#colors">Colors</a></li>
-            <li><a href="#fonts">Fonts</a></li>
+            <li><a href="#introduction-colors-fonts">Introduction to CSS - Colors & Fonts</a></li>
             <li><a href="#borders">Borders</a></li>
             <li><a href="#shadows">Shadows</a></li>
             <li><a href="#margins">Margins</a></li>
@@ -39,29 +40,25 @@
     </nav>
 </header>
 
+<!-- 3  Ways to apply CSS; Inline, Internal, and External -->
+
 <main>
-    <section id="introduction">
-        <h2>Introduction to CSS</h2>
+    <section id="introduction-colors-fonts"> 
+        <h2>Introduction to CSS - Colors & Fonts</h2>
         <p>Learn about inline, internal, and external CSS stylesheets.</p>
+        <br>
+        <p           class = "even">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis eius sequi qui, deserunt nihil vitae. Nostrum dolorum tempora voluptatum voluptate corrupti tenetur vero laborum. Quo nesciunt iure inventore cupiditate eaque?</p>
+        <p id = 'p1' class = "odd">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis eius sequi qui, deserunt nihil vitae. Nostrum dolorum tempora voluptatum voluptate corrupti tenetur vero laborum. Quo nesciunt iure inventore cupiditate eaque?</p>
+        <p id = 'p2' class = "even">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis eius sequi qui, deserunt nihil vitae. Nostrum dolorum tempora voluptatum voluptate corrupti tenetur vero laborum. Quo nesciunt iure inventore cupiditate eaque?</p>
+        <p id = 'p3' class = "odd">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis eius sequi qui, deserunt nihil vitae. Nostrum dolorum tempora voluptatum voluptate corrupti tenetur vero laborum. Quo nesciunt iure inventore cupiditate eaque?</p>
+        <p id = 'p4' class = "even">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis eius sequi qui, deserunt nihil vitae. Nostrum dolorum tempora voluptatum voluptate corrupti tenetur vero laborum. Quo nesciunt iure inventore cupiditate eaque?</p>
+        <br>
         <p>Try adding inline styles directly to this text or use the <code>&lt;style&gt;</code> tag in the <code>&lt;head&gt;</code>.</p>
-    </section>
-
-    <section id="colors">
-        <h2>Colors</h2>
-        <p>Experiment with named colors, RGB, HEX, and HSL values here.</p>
-        <div class="color-box">Sample Color Box</div>
-    </section>
-
-    <section id="fonts">
-        <h2>Fonts</h2>
-        <p>Apply various font styles and experiment with Google Fonts.</p>
-        <h3 class="font-sample">Font Styling Example</h3>
     </section>
 
     <section id="borders">
         <h2>Borders</h2>
-        <p>Style borders with different styles, widths, colors, and radii.</p>
-        <div class="border-sample">Border Example</div>
+        <p class="multi-border">Style borders with different styles, widths, colors, and radii.</p>
     </section>
 
     <section id="shadows">
@@ -74,7 +71,8 @@
     <section id="margins">
         <h2>Margins</h2>
         <p>Adjust margins and experiment with margin auto and directional margins.</p>
-        <div class="margin-box">Margin Example</div>
+        <div class="margin-box1">Margin Example 1</div>
+        <div class="margin-box2">Margin Example 2</div>
     </section>
 
     <section id="float">
