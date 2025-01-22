@@ -102,5 +102,26 @@ p {
 
 }
 
+#float {
+    border: 3px solid;
+    display: flow-root;
+}
+
+#img1 {
+    float: left;
+    margin-right: 10px;
+}
+
+#img2 {
+    float: right;
+    margin-left: 5px;
+}
+
+.overflow-box {
+    border: 2px solid;
+    height: 45px;
+    overflow: auto;
+    //overflow-clip-margin: 10px;
+}
 
 
